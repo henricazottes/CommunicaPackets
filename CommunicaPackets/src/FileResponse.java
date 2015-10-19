@@ -1,26 +1,26 @@
 
 public class FileResponse extends Packet{
-	private Boolean Response;
-	private String Id;
+	private Boolean response;
+	private String id;
 	
 	public FileResponse(Boolean response, String id){
-		this.Response = response;
-		this.Id = id;
+		this.response = response;
+		this.id = id;
 	}
 
 	public Boolean getResponse() {
-		return Response;
+		return this.response;
 	}
 
 	public void setResponse(Boolean response) {
-		Response = response;
+		this.response = response;
 	}
 
 	public String getId() {
-		return Id;
+		return this.id;
 	}
 
 	public void setId(String id) {
-		Id = id;
+		this.id = id;
 	}
 }

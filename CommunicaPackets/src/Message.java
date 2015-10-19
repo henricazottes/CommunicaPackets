@@ -1,37 +1,37 @@
 import java.sql.Date;
 
 public class Message extends Packet{
-	private Date Time;
-	private String From;
-	private String Payload;
+	private Date time;
+	private String from;
+	private String payload;
 	
 	public Message(Date time, String from, String payload){
-		this.Time = time;
-		this.From = from;
-		this.Payload = payload;
+		this.time = time;
+		this.from = from;
+		this.payload = payload;
 	}
 
 	public Date getTime() {
-		return Time;
+		return time;
 	}
 
 	public void setTime(Date time) {
-		Time = time;
+		this.time = time;
 	}
 
 	public String getFrom() {
-		return From;
+		return this.from;
 	}
 
 	public void setFrom(String from) {
-		From = from;
+		this.from = from;
 	}
 
 	public String getPayload() {
-		return Payload;
+		return this.payload;
 	}
 
 	public void setPayload(String payload) {
-		Payload = payload;
+		this.payload = payload;
 	}
 }

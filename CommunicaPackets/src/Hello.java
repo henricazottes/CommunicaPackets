@@ -2,23 +2,23 @@ import java.net.InetAddress;
 
 
 public class Hello extends Packet {
-	private String Nickname;
-	private InetAddress Ip;
+	private String nickname;
+	private InetAddress ip;
 	
 	public Hello(String nickname, InetAddress ip){
-		this.Ip = ip;
-		this.Nickname = nickname;
+		this.ip = ip;
+		this.nickname = nickname;
 	}
 	public String getNickname() {
-		return Nickname;
+		return this.nickname;
 	}
 	public void setNickname(String nickname) {
-		Nickname = nickname;
+		this.nickname = nickname;
 	}
 	public InetAddress getIp() {
-		return Ip;
+		return this.ip;
 	}
 	public void setIp(InetAddress ip) {
-		Ip = ip;
+		this.ip = ip;
 	}	
 }

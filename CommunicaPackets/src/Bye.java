@@ -1,16 +1,16 @@
 
 public class Bye extends Packet{
-	private String Nickname;
+	private String nickname;
 	
 	public Bye(String nickname){
-		this.Nickname = nickname;
+		this.nickname = nickname;
 	}
 
 	public String getNickname() {
-		return Nickname;
+		return nickname;
 	}
 
 	public void setNickname(String nickname) {
-		Nickname = nickname;
+		this.nickname = nickname;
 	}
 }
